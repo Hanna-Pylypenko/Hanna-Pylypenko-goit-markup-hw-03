@@ -14,12 +14,7 @@ body {
   background: var(--body-background);
   line-height: 2;
 }
-.studio-body {
-  height: 2349px;
-}
-.portfolio-body {
-  height: 1880px;
-}
+
 header,
 section,
 footer {
@@ -54,13 +49,10 @@ button:focus {
 }
 .nav {
   display: inline-block;
-  width: 1600px;
-  height: 80px;
   color: var(--headline-color);
 }
 
 .nav li a {
-  height: 16px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -88,7 +80,6 @@ a:active {
 .logo {
   font-family: Raleway;
   width: 145px;
-  height: 31px;
   left: 215px;
   font-family: Raleway;
   font-weight: bold;
@@ -151,7 +142,6 @@ a:active {
 
 .values li {
   width: 270px;
-  height: 75px;
   margin-right: 30 px;
   margin-bottom: 94px;
 }
@@ -159,7 +149,7 @@ a:active {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.03em;
-  height: 1.2;
+  line-height: 1.2;
 }
 .values p {
   font-family: "Roboto";
@@ -176,7 +166,6 @@ a:active {
 }
 .our-team {
   background: var(--light-section);
-  height: 648px;
   padding-top: 94px;
 }
 .our-team li {
@@ -204,7 +193,7 @@ a:active {
 }
 footer {
   background: var(--section-background);
-  height: 252px;
+
   padding-top: 50px;
 }
 footer li a {
@@ -220,7 +209,6 @@ footer li a {
 
 .porfolio-items li {
   width: 370px;
-  height: 404px;
   background: var(--body-background);
   border: 1px;
   list-style: solid;
@@ -242,7 +230,6 @@ footer li a {
 }
 address {
   width: 231px;
-  height: 21px;
   left: 215px;
   font-style: normal;
   font-size: 14px;
