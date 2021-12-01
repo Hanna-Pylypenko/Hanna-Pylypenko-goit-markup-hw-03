@@ -22,7 +22,7 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
   position: relative;
-  width: 1600px;
+
   background: var(--body-background);
   line-height: 2;
 }
@@ -136,8 +136,8 @@ a:active {
 }
 .service-ordering {
   background: var(--section-background);
-  height: 600px;
   padding-top: 200px;
+  padding-bottom: 200px;
   letter-spacing: 0.06em;
   text-align: center;
 }
@@ -196,15 +196,20 @@ a:active {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .centered-title {
   text-align: center;
   font-size: 36px;
   margin-bottom: 50px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.things-we-do-section {
+  padding-bottom: 94px;
 }
 .things-we-do {
-  padding-bottom: 94px;
   display: flex;
 }
 .things-we-do li:not(:last-child) {
@@ -214,6 +219,7 @@ a:active {
   background: var(--light-section);
   padding-bottom: 94px;
   padding-top: 94px;
+  display: flex;
 }
 
 .our-team li {
@@ -222,8 +228,12 @@ a:active {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  margin-right: 14px;
-  justify-content: center;
+}
+.team-members li {
+  margin-right: 30px;
+}
+.team-members li:not(last-child) {
+  margin-right: 0;
 }
 .our-team p {
   font-family: Roboto;
@@ -260,8 +270,14 @@ footer li a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.footer-contacts li {
+  margin-bottom: 9px;
+}
+.footer-contacts li:not(last-child) {
+  margin-bottom: 0;
 }
 .portfolio-items {
   padding-top: 94px;
@@ -342,6 +358,7 @@ address {
   padding: 6px 22px;
   box-shadow: none;
   border-style: none;
+  margin-right: 8px;
 }
 
 .header-studio {
@@ -350,21 +367,14 @@ address {
 .footer-studio {
   color: var(--body-background);
 }
+footer .logo {
+  margin-bottom: 20px;
+}
 
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-}
-section,
-footer {
-  margin: 0px;
-}
-section ul li {
-  margin-right: 30px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-section ul li:last-child {
-  margin-right: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
