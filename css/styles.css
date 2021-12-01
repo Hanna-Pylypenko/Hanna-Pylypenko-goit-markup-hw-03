@@ -221,7 +221,9 @@ a:active {
   padding-top: 94px;
   display: flex;
 }
-
+.our-team ul {
+  display: flex;
+}
 .our-team li {
   background: var(--body-background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -229,11 +231,9 @@ a:active {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-.team-members li {
-  margin-right: 30px;
-}
+
 .team-members li:not(last-child) {
-  margin-right: 0;
+  margin-right: 30px;
 }
 .our-team p {
   font-family: Roboto;
@@ -263,6 +263,9 @@ footer {
   padding-top: 50px;
   padding-bottom: 60px;
 }
+footer li {
+  line-height: 1.7;
+}
 footer li a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -270,14 +273,11 @@ footer li a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.footer-contacts li {
-  margin-bottom: 9px;
-}
+
 .footer-contacts li:not(last-child) {
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 .portfolio-items {
   padding-top: 94px;
@@ -339,6 +339,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--body-background);
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .filter-items {
