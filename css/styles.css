@@ -275,7 +275,8 @@ footer li a {
   background: var(--body-background);
 }
 .portfolio-cards {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-card {
