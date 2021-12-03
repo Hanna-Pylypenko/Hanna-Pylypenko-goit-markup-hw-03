@@ -73,7 +73,6 @@ header ul {
 }
 .nav-anchors {
   display: flex;
-  margin-right: 331px;
 }
 .nav-anchors li:not(:last-child) {
   margin-right: 50px;
@@ -86,11 +85,6 @@ header ul {
   text-decoration: none;
 }
 
-.nav li a:hover,
-.nav li a:focus,
-.nav li a:active {
-  color: var(--hover-color);
-}
 .nav-anchors a {
   color: var(--headline-color);
   text-decoration: none;
@@ -171,6 +165,7 @@ a:active {
 .filter-items li {
   display: inline-block;
 }
+
 .nav li {
   display: inline-block;
 }
@@ -395,4 +390,11 @@ section {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.nav li a:hover,
+.nav li a:focus,
+.nav li a:active,
+header .current {
+  color: var(--hover-color);
 }
