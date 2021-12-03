@@ -175,8 +175,6 @@ a:active {
   display: inline-block;
 }
 .our-values .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
   width: 1200px;
 }
 .our-values ul {
@@ -280,10 +278,14 @@ footer li a {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+footer ul {
+  display: inline-block;
+}
 
-.footer-contacts li:not(last-child) {
+.footer-contacts > li:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .portfolio-items {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -384,11 +386,13 @@ footer .logo {
   margin-bottom: 20px;
 }
 section {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
