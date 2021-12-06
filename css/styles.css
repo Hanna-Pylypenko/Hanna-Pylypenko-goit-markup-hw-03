@@ -232,7 +232,7 @@ a:active {
   text-align: center;
 }
 
-.team-members li:not(last-child) {
+.team-members li:not(:last-child) {
   margin-right: 30px;
 }
 .our-team p {
